@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorXAD</title>
+    <style>@font-face {
+        font-family: 'FUN GAMES';
+        src: url(Fungames-lgPnq.otf);
+      } body { background-color: #000; } 
+img {position: absolute;
+  top: 25%; left: 50%; transform: translate(-50%, -50%); width: 25%;}
+h1 { color: #FFF; font-family: "FUN GAMES";  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);animation: fadeIn 3s; animation-iteration-count: infinite;  }
+  @keyframes fadeIn {
+    0% { opacity: 0; transition-timing-function: ease-out; }
+    50% { opacity: 1; transition-timing-function: ease-in; }
+    100% { opacity: 0; transition-timing-function: ease-out; }
+}
+@media (max-width: 1024px) { img { width: 50%; } }
+@media (max-width: 767px) { img { width: 75%; } h1 { font-size: 18px;}}
+@media (orientation: landscape) and ( max-width: 1100px) {img { top: 40%; width: 50%; } h1 { top: 75%;}}
+</style>
+</head>
+<body>
+    <img src="./ColorXLogo.jpg"/>
+    <h1>Work in Progress</h1>
+</body>
+</html>
