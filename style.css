@@ -1,0 +1,352 @@
+.title-banner {background:url(ColorXBanner.mp4); background-size: cover; }
+.brands img { width : 100px; }
+
+/* nav {position: fixed;} */
+
+header, .homepage-navbar {position: sticky; top:0;}
+.homepage-navbar {z-index: 99;}
+
+@media (min-width: 760px) {
+    .navbar-expand-lg .navbar-collapse { justify-content: flex-end;}
+}
+
+.brands img { margin: 0 15px;}
+
+.navbar-brand img { width: 50px;}
+
+@media (min-width: 768px) {
+
+    .active { border-bottom: 2px solid white; }
+
+}
+.home__social-follow {text-decoration: none; color: #000; cursor:default;}
+
+.wk-row { margin-bottom: 30px; margin-top: 20px; }
+
+li a { text-decoration: none; }
+
+.threed-signage img, .wayfinder img, .mall-activation img,.vehicle-branding img,.digital-printing img, .floor-graphics img, .offset-printing img { width: 100%;}
+
+.show-dropdown .dropdown-menu { display:block!important;}
+
+.threed-signage img, .mall-activation img, .digital-printing img { animation: appear 1s ease-in;  }
+
+.wayfinder img, .vehicle-branding img, .floor-graphics img  {  animation: appear 1s ease-in; }
+
+/* @keyframes appear {
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 2000px, 0);
+        transform: translate3d(0, 2000px, 0);
+      }
+    
+      100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    
+}
+ */
+
+
+ .animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+  }
+
+
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+ .title-banner {background-size: cover;}
+  video { background-size: cover;}
+
+  .header { z-index: 9;}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important
+;
+    flex-basis: auto;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link { padding-left: 0.5rem; padding-right: 0.5rem}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+}
+
+
+footer {position: sticky;
+  bottom: 0;
+float: right;}
+
+
+.social-links img, #whatsapp-fixed img, #mobile-logo img{
+
+  width: 50px;
+}
+
+#contact, #contact-text { text-align: center;}
+
+.slide-in {
+  transform: translateX(-100);
+  transition: transform 0.5s ease-in;
+}
+
+.slide-in.visible {
+  transform: translateX(0);
+}
+
+/* .wk-row {
+  display: none;
+} */
+
+
+#accordion .btn { color: #000; text-decoration: none;}
+
+#collapseNine ul {
+  margin: 0 15px;
+}
+
+.anv
+.navbar-nav .nav-item, .navbar-nav .nav-item .nav-link {color: #FFF;}
+
+header {z-index:9;}
+
+.title-banner {margin-bottom: -10px;}
+
+nav { background: linear-gradient(#C8353D, #1E75BA, #FBB33B); }
+
+
+.slick-prev, .slick-next { background: url('arrow-circle-left-icon.png')!important; width: 25px!important;height: 25px !important;background-size: 25px!important;; background-repeat: no-repeat;  }
+
+.slick-next {transform: scaleX(-1); }
+
+.slick-prev:before, .slick-next:before {content: none!important;} 
+.slick-track { display: flex!important; align-items: center!important;}
+
+.about-video, .vision-mission-video-section { display: none;}
+
+.slick-slide { margin: 0 50px!important;}
+
+
+@media (max-width: 768px) {
+  .slick-prev { z-index: 99; left: 0!important;}
+  .slick-next { right: 0!important;}
+  .brands img { margin: 0!important;}
+}
+
+.brand-title  { text-transform: uppercase; text-align: center; margin-top: 50px;}
+
+#contact { text-transform: uppercase; text-align: center; margin-top: 300px; }
+
+.slick-dots li button { width: 5px!important; height: 5px!important; background: #000!important; border-radius: 25px!important;}
+
+.slick-dots li button:before { content: none!important;}
+
+.navbar-brand { font-family:'Arial'; text-transform: uppercase;}
+
+.title-banner {position: relative;}
+
+.homepage header { position: absolute; width: 100%;}
+
+nav { background: transparent; color: #FFF;}
+
+.about-us .about-section, .vision-and-mission-page .vision-mission-body { width: 80%;     margin: 5% auto;}
+
+.about-us header, .vision-and-mission-page header { background-color: purple; color: #FFF;}
+
+.about-us-title, .vision-mission-title {
+  background-color: purple;
+  color: #FFF;
+  font-family: 'Arial';
+  font-size: 64px;
+  display: flex
+;
+  justify-content: flex-start;
+  padding: 150px;
+}
+
+.mb-navbar { display: none; }
+
+.bg-navbar { background-color: #000!important;}
+
+@media (max-width: 767px) {
+
+  .vm-desk { display: none!important;}
+
+  .homepage header nav { display: none; }
+
+  .bg-navbar { display: none; }
+
+  .mb-navbar { display: block; }
+
+  .bg-dark .container-fluid { justify-content: flex-end;}
+
+}
+
+#about { color: #FFF; background-color:#000; }
+ #work { background-color: #000; color: #FFF}
+
+ #work .accordion { color: #000;}
+
+ .vision-mission-text-section { background-color: #000; }
+ .vision-mission-text { color: #FFF;  }
+.homepage #vision-mission{ color: #FFF; background:#000; }
+#about, #brands, #work,  .vision-mission-text { padding-top: 150px; padding-bottom: 150px;}
+
+ #about { padding: 0; }
+
+ .about-section  { padding-top: 150px;}
+ #about p, #vision-mission p { margin: 50px 0;}
+.homepage .about-section,  .homepage .work   {
+
+  display: none;
+  animation: slide-right 1s;
+}
+.vision-mission-video-section { padding-right:0;}
+.about-us .about-section, .wayfinder, .vehicle-branding, .floor-graphics, #wk-9 ul, .vision-mission-video { animation: slide-right 1s; }
+
+
+@keyframes slide-right {
+
+  0% {
+      opacity: 0;
+      transform: translate(-5%);
+  }
+
+
+
+
+
+  100% {
+      opacity: 1;
+      transform: translateX(0%);
+  }
+}
+
+
+.threed-signage, .mall-activation, .digital-printing, .offset-printing, #wk-8 p { animation: slide-left 1s; }
+
+.about-video { animation: slide-video-left 2s; }
+#vision-mission {background-color: #000; }
+
+
+
+@keyframes slide-video-left {
+
+ 0% {
+
+      opacity: 0;
+      transform: translateX(50%);
+ }
+
+ 100% {
+
+
+
+      opacity: 1;
+      transform: translateX(0%);
+ }
+
+
+
+}
+.vision-mission-video-section { animation: slide-video-right 1s;}
+
+@keyframes slide-video-right {
+
+  0% {
+ 
+       opacity: 0;
+       transform: translateX(-50%);
+  }
+ 
+  100% {
+ 
+ 
+ 
+       opacity: 1;
+       transform: translateX(0%);
+  }
+ 
+ 
+ 
+ }
+
+
+
+.homepage .vision-mission {
+
+
+  display: none;
+  animation: slide-left 1s;
+}
+
+@keyframes slide-left {
+
+  0% {
+      opacity: 0;
+      transform: translate(5%);
+  }
+
+
+
+  100% {
+      opacity: 1;
+      transform: translateX(0%);
+  }
+}
+
+.about-video, .vision-mission-video  { margin-bottom: -5px; }
+
+@media (max-width: 1080px) {
+
+  .vision-mission-video { width:200%;}
+}
+
+@media (max-width: 767px) {
+
+  .row { margin-right: 0;}
+  .vision-mission-video { width:95%;}
+
+}
+.vm-mbl {display: none;}
+
+@media (min-width: 768px) {
+  /* .col-md-6 {
+      flex: 0 0 auto;
+      width: 49.6%;
+  } */
+
+  .row { margin-right: 0;}
+
+  .vm-mbl { display: none!important;}
+}
+
+#vision-mission { background-color: transparent; background-image:url('28t1.gif');}
+
+.vision-mission-text-section { background-color: transparent;}
+
+.contact-sticky , .follow-us { background-color: #000; color: #FFF; padding: 5px;}
+
+.mb-navbar { display: none; }
+
+
+
+
+
+
+
